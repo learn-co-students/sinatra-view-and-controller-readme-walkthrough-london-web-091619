@@ -31,7 +31,7 @@ describe "App" do
     end
 
     it 'displays friends in the view' do
-      @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
+     
 
       get '/friends'
 
